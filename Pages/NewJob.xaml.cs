@@ -13,22 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace JobTracker
+namespace JobTracker.Pages
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for NewJob.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class NewJob : Page
     {
-        public MainWindow()
+        public NewJob()
         {
             InitializeComponent();
-        }
-
-        private void sidebar_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            var selected = sidebar.SelectedItem as Navbutton;
-            navframe.Navigate(selected.Navlink);
         }
     }
 }

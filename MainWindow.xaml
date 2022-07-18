@@ -17,9 +17,9 @@
 
         <ListBox Grid.Column="0" SelectionMode="Single" SelectionChanged="sidebar_SelectionChanged" SelectedIndex="0" x:Name="sidebar" Margin="0,10,0,0" BorderThickness="0">
 
-            <local:Navbutton Navlink="/Pages/Home.xaml" Text="Home"/>
-            <local:Navbutton Navlink="/Pages/Analytics.xaml" Text="Analytics"/>
-            <local:Navbutton Navlink="/Pages/Settings.xaml" Text="Settings"/>
+            <local:Navbutton Navlink="/Pages/Home.xaml" Text="Home" FontFamily="Montserrat Thin" Margin="0,0,0,5"/>
+            <local:Navbutton Navlink="/Pages/Analytics.xaml" Text="Analytics" FontFamily="Montserrat Thin" Margin="0,0,0,5"/>
+            <local:Navbutton Navlink="/Pages/Settings.xaml" Text="Settings" FontFamily="Montserrat Thin"/>
             
         </ListBox>
 

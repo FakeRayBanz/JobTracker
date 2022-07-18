@@ -12,11 +12,12 @@
                 <ControlTemplate TargetType="{x:Type local:Navbutton}">
                     <Border Background="{TemplateBinding Background}"
                             CornerRadius="8"
+                            Height="35"
                             Width="90"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}"
                             x:Name="background">
-                        <Label x:Name="Text" Content="{TemplateBinding Text}" FontSize="17" HorizontalAlignment="Center"></Label>
+                        <Label x:Name="Text" Content="{TemplateBinding Text}" FontSize="17" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
                     </Border>
 
                     <ControlTemplate.Triggers>
